@@ -51,3 +51,4 @@ brew cask install virtualbox
 brew cask install alfred
 brew cask install dropbox
 brew cask install skype
+brew cask install android-studio
