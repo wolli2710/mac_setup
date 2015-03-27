@@ -55,3 +55,6 @@ brew cask install alfred
 brew cask install dropbox
 brew cask install skype
 brew cask install android-studio
+brew cask install cheatsheet
+brew cask install google-drive
+brew cask install vlc
