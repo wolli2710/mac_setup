@@ -15,7 +15,7 @@ cp dotfiles/.inputrc ~
 cp dotfiles/.vimrc ~
 cp dotfiles/.gvimrc ~
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 
 brew install git
