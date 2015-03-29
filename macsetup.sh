@@ -48,7 +48,6 @@ brew install caskroom/cask/brew-cask
 brew cask install bettertouchtool
 brew cask install google-chrome
 brew cask install firefox
-brew cask install sublime-text-3
 
 brew cask install virtualbox
 brew cask install alfred
@@ -58,3 +57,6 @@ brew cask install android-studio
 brew cask install cheatsheet
 brew cask install google-drive
 brew cask install vlc
+
+brew tap caskroom/versions
+brew cask install sublime-text3
