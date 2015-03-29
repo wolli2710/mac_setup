@@ -11,9 +11,9 @@ else
   echo $'\nAdd your new ssh-key to your github account! \n'
 fi
 
-cp dotfiles/.inputrc ~
-cp dotfiles/.vimrc ~
-cp dotfiles/.gvimrc ~
+cp mac_setup-master/dotfiles/.inputrc ~
+cp mac_setup-master/dotfiles/.vimrc ~
+cp mac_setup-master/dotfiles/.gvimrc ~
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
