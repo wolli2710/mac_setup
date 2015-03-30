@@ -30,6 +30,9 @@ brew install rbenv
 brew install rbenv-gem-rehash
 brew install ruby-build
 
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+source ~/.bashrc
+
 rbenv install 2.1.2
 rbenv global 2.1.2
 
