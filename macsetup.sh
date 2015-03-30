@@ -46,6 +46,12 @@ brew install nvm
 echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.bashrc
 echo "[[ -r ~/.bashrc ]] && . ~/.bashrc" >> ~/.bash_profile
 
+nvm install 0.10.28
+nvm use 0.10.28 --default
+
+npm install -g bower
+npm install -g grunt-cli
+
 brew install caskroom/cask/brew-cask
 
 brew cask install bettertouchtool
