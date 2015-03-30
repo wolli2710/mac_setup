@@ -40,8 +40,8 @@ gem update --system
 gem install rails
 
 brew install nvm
-echo "source $(brew --prefix nvm)/nvm.sh" >> .bashrc
-echo "[[ -r ~/.bashrc ]] && . ~/.bashrc" >> .bash_profile
+echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.bashrc
+echo "[[ -r ~/.bashrc ]] && . ~/.bashrc" >> ~/.bash_profile
 
 brew install caskroom/cask/brew-cask
 
