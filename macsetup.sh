@@ -53,6 +53,7 @@ nvm use 0.10.28 --default
 npm install -g bower
 npm install -g grunt-cli
 npm install -g grunt-init
+npm install -g yo
 
 brew install caskroom/cask/brew-cask
 
