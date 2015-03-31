@@ -36,6 +36,7 @@ source ~/.bashrc
 rbenv install 2.1.2
 rbenv global 2.1.2
 
+brew install mysql
 brew install libxml2
 bundle config build.nokogiri "--use-system-libraries --with-xml2-include=/usr/local/opt/libxml2/include/libxml2"
 
@@ -51,6 +52,7 @@ nvm use 0.10.28 --default
 
 npm install -g bower
 npm install -g grunt-cli
+npm install -g grunt-init
 
 brew install caskroom/cask/brew-cask
 
