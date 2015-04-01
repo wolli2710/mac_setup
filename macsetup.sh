@@ -72,3 +72,5 @@ brew cask install vlc
 
 brew tap caskroom/versions
 brew cask install sublime-text3
+
+defaults write com.apple.finder AppleShowAllFiles YES
