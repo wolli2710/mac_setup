@@ -70,6 +70,7 @@ brew cask install cheatsheet
 brew cask install google-drive
 brew cask install vlc
 brew cask install gimp
+brew cask install flash-player
 
 brew tap caskroom/versions
 brew cask install sublime-text3
