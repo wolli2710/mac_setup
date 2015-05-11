@@ -37,6 +37,9 @@ rbenv install 2.1.2
 rbenv global 2.1.2
 
 brew install mysql
+brew install mongodb
+mkdir -p /data/db
+
 brew install libxml2
 bundle config build.nokogiri "--use-system-libraries --with-xml2-include=/usr/local/opt/libxml2/include/libxml2"
 
