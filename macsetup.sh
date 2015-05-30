@@ -46,6 +46,7 @@ bundle config build.nokogiri "--use-system-libraries --with-xml2-include=/usr/lo
 gem update --system
 gem install rails
 
+brew install android-platform-tools
 brew install nvm
 echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.bashrc
 echo "[[ -r ~/.bashrc ]] && . ~/.bashrc" >> ~/.bash_profile
