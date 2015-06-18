@@ -36,6 +36,7 @@ source ~/.bashrc
 rbenv install 2.1.2
 rbenv global 2.1.2
 
+brew install rabbitmq
 brew install mysql
 brew install mongodb
 mkdir -p /data/db
@@ -66,6 +67,7 @@ brew cask install google-chrome
 brew cask install firefox
 
 brew cask install virtualbox
+brew cask install vagrant
 brew cask install alfred
 brew cask install dropbox
 brew cask install skype
