@@ -79,7 +79,10 @@ brew cask install vlc
 brew cask install gimp
 brew cask install flash-player
 
-brew tap caskroom/versions
-brew cask install sublime-text3
+brew cask install atom
+apm install minimap
+apm install atom-beautify
+#brew tap caskroom/versions
+#brew cask install sublime-text3
 
 defaults write com.apple.finder AppleShowAllFiles YES
