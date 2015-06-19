@@ -87,4 +87,8 @@ apm install atom-beautify
 #brew tap caskroom/versions
 #brew cask install sublime-text3
 
+#install vagrant plugins
+vagrant plugin install vagrant-vbguest
+vagrant plugin install vagrant-librarian-chef-nochef
+
 defaults write com.apple.finder AppleShowAllFiles YES
